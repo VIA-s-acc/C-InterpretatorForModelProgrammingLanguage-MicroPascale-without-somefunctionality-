@@ -1,0 +1,28 @@
+program
+label lbl1;
+var a,b,c:int;
+begin
+a:=15;
+b:=20;
+c:=18;
+
+
+goto lbl1;
+
+
+while a<b do
+begin
+a:=a+1;
+if a < c then
+    continue
+else a:=20;
+end;
+
+
+lbl1:
+
+a:= 15;
+
+
+write(a);
+end @

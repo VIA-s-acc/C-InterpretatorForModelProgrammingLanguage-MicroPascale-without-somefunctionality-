@@ -1,0 +1,27 @@
+program
+
+var a,n,fib1,fib2,fib,i:int;
+begin
+    n := 47;
+    i := 3;
+    fib1 := 0;
+    fib2 := 1;  
+    fib := 0;
+    if n=1 then 
+        write(fib1)
+        else
+            write(fib1);
+            write(fib2);
+    while i<=n do
+        begin
+            fib := fib1+fib2;
+            write(fib);
+            fib1 := fib2;
+            fib2 := fib;
+            i := i + 1;
+        end;
+    
+    
+        
+    
+end @

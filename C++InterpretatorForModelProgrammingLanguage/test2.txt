@@ -1,0 +1,34 @@
+program 
+
+var a:int;
+
+begin
+
+while a>0 do 
+    begin 
+        a:= a-1;
+        if a > 10 then
+            while a<10 do
+            begin 
+                a:= a+1;
+                if a > 10 then
+                    while a<10 do
+                    begin 
+                        a:= a-1;
+                        if a > 10 then
+                            while a<10 do
+                            begin 
+                                a:= a+1;
+                                if a > 10 then
+                                    while a<10 do
+                                    a:=a+1
+                                else a:=2 
+                            end 
+                        else a:=2 
+                    end 
+                else a:=2 
+            end 
+        else a:=2 
+    end 
+
+end @

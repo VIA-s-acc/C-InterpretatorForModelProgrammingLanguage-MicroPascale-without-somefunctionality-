@@ -1,0 +1,8 @@
+program
+
+var a:int,b:bool;
+begin
+
+a := 1+2 or true;
+
+end @

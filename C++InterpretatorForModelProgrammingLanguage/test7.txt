@@ -1,0 +1,14 @@
+program
+var a,b,c,d:int;
+begin
+a:=1;
+c:=1;
+b:=30;
+while c<=b do
+begin
+    a:=a*2;
+    write(a);
+    c:=c+1;
+end
+
+end @

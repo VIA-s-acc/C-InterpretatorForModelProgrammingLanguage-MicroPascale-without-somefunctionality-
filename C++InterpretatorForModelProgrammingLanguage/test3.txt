@@ -1,0 +1,9 @@
+program
+var a:int, b:bool;
+
+begin
+
+if a < true then
+    b := false
+
+end @

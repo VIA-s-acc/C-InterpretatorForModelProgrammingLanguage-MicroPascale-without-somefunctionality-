@@ -1,0 +1,10 @@
+program
+var a,b,c,d:int;
+begin
+a:=10;
+b:=11;
+while b>a do
+  begin a:=a-b;b:=b-10; 
+end;
+  write(a);
+end @
